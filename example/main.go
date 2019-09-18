@@ -18,7 +18,6 @@ func ImagesToPdf(inputPaths []string, outputPath string) error {
 
 	for _, imgPath := range inputPaths {
 
-
 		img, err := c.NewImageFromFile(imgPath)
 		if err != nil {
 			return err
